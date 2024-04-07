@@ -1,0 +1,70 @@
+:root{
+    --bgColor:linear-gradient(55deg,#0a0a0a,#3a4452);
+    --borderColor: #717377;
+    --boxShadowColor: rgba(113,115,119,0.5);
+    --boxShadowColor2: rgba(84,84,84,0.2);
+    --boxShadowColor3: rgba(255,255,255,0.2);
+
+    --whiteColor:#ffffff;
+    --orengeColor:#fb7c14;
+    --greenColor:#6dee0a;
+    
+}
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bgColor)
+}
+.calculator{
+    border: 1px solid var(--borderColor);
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px var(--boxShadowColor);
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px var(--boxShadowColor2);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: var(--orengeColor);
+}
+input::placeholder{
+    color: var(--whiteColor);
+}
+
+button{
+    font-size: 20px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40%;
+    background: transparent;
+    color: var(--whiteColor);
+    box-shadow: -8px -8px 15px var(--boxShadowColor3);
+    cursor: pointer;
+
+}
+.equal-btn{
+    background-color: var(--orengeColor);
+}
+.operator{
+    color: var(--greenColor);
+}
+
