@@ -62,11 +62,10 @@ button{
     border-radius: 40%;
     background: transparent;
     color: var(--whiteColor);
-    box-shadow: -8px -8px 15px var(--boxShadowColor3);
     cursor: pointer;
 }
 button:hover{
-    box-shadow: none;
+    background: rgb(57, 48, 48);
 
 }
 .equal-btn{
