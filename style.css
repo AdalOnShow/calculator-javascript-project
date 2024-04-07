@@ -28,7 +28,7 @@ html,body{
 h1{
     margin-left: 10px;
     font-size: 25px;
-    color: #fb7c14;
+    color:aqua;
 }
 .calculator{
     border: 1px solid var(--borderColor);
