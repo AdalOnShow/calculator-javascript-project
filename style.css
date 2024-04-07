@@ -25,6 +25,11 @@ html,body{
     align-items: center;
     background: var(--bgColor)
 }
+h1{
+    margin-left: 10px;
+    font-size: 25px;
+    color: #fb7c14;
+}
 .calculator{
     border: 1px solid var(--borderColor);
     padding: 20px;
